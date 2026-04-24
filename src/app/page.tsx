@@ -72,6 +72,27 @@ export default function Home() {
             Continuously exploring emerging domains like AI, automation, and cybersecurity to create impactful and future-ready solutions.
           </p>
 
+          <div className="flex gap-4 mt-6 flex-wrap">
+
+  <a
+    href="/Soumya_resume.pdf"
+    download
+    className="bg-purple-600 px-5 py-2 rounded-lg hover:scale-105 transition"
+  >
+    Download Resume
+  </a>
+
+  <a
+    href="/Soumya_resume.pdf"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="border border-white px-5 py-2 rounded-lg hover:bg-white hover:text-black transition"
+  >
+    View Resume
+  </a>
+
+</div>
+
           <div className="flex gap-4 mt-6">
             <button className="bg-purple-600 px-5 py-2 rounded-lg hover:scale-105 transition">
               Contact Me
