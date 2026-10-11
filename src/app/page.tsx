@@ -35,7 +35,7 @@ export default function Home() {
 
       {/* NAVBAR */}
       <div className="flex justify-between items-center mb-16">
-        <h1 className="text-xl font-semibold">Soumya Singh</h1>
+        <p className="text-xl font-semibold">Soumya Singh</p>
         <div className="space-x-6 text-sm text-gray-400">
           <a href="#projects" className="hover:text-white">Projects</a>
           <a href="#skills" className="hover:text-white">Skills</a>
@@ -53,14 +53,14 @@ export default function Home() {
       >
         <Image
           src="/profile.jpeg"
-          alt="profile"
+          alt="Portrait of Soumya Singh, Full Stack Developer"
           width={280}
           height={280}
           className="rounded-2xl border border-purple-500"
         />
 
         <div>
-          <h2 className="text-4xl font-bold mb-4">Soumya Singh</h2>
+          <h1 className="text-4xl font-bold mb-4">Soumya Singh</h1>
 
           <p className="text-purple-400 mb-4">
             Full Stack Developer | Cybersecurity Enthusiast
@@ -229,11 +229,11 @@ export default function Home() {
         </p>
 
         <div className="flex justify-center gap-6 mb-6">
-          <a href="https://github.com/" target="_blank" className="text-purple-400 hover:text-white">
+          <a href="https://github.com/Soumya763" target="_blank" rel="noopener noreferrer" className="text-purple-400 hover:text-white">
             GitHub →
           </a>
 
-          <a href="https://linkedin.com/" target="_blank" className="text-purple-400 hover:text-white">
+          <a href="https://www.linkedin.com/in/soumya04" target="_blank" rel="noopener noreferrer" className="text-purple-400 hover:text-white">
             LinkedIn →
           </a>
         </div>
